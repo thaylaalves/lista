@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #c0c0c0;
+  margin: 50px 0px 0px 0px;
+}
+#texto-do-usuario {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  width: 200px;
+  margin: 50px 0px 0px 0px;
+}
+
+.adicionar {
+  background-color: #696969;
+  color: white;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.adicionar :hover {
+  background-color: #808080;
+}
+
+#lista {
+  list-style-type: none;
+  font-size: 15px;
+}
+#lista button {
+  margin: 0px 0px 0px 90px;
+  border: none;
+  color: transparent;
+  background-color: #c0c0c0;
+  transition: 0.5s;
+}
+
+#lista button:hover {
+  color: black;
+}
