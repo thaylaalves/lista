@@ -30,18 +30,27 @@ body {
   background-color: #808080;
 }
 
-#lista {
-  list-style-type: none;
-  font-size: 15px;
-}
 #lista button {
   margin: 0px 0px 0px 90px;
   border: none;
   color: transparent;
-  background-color: #c0c0c0;
+  background-color: transparent;
+  cursor: pointer;
   transition: 0.5s;
+  visibility: hidden;
 }
 
-#lista button:hover {
+#lista li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#lista li:hover button {
+  visibility: visible;
   color: black;
+}
+
+div {
+  margin: 40px 0px 0px 0px;
 }
